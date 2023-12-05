@@ -1,0 +1,8 @@
+body {
+    background-image: url("dhoni.jpg");
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 900;
+}

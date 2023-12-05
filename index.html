@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports website</title>
+    <link rel="stylesheet" href="ipl.css">
+    <style>
+        *{
+         font-family: 'Poppins', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="ipl.png" alt="">
+        </div>
+
+
+        <!-- this is for background logo -->
+        <div class="background">
+            <img src="csblogo.png" id="logobg" alt="">
+        </div>
+
+        <div class="heading">
+            <h1 id="head">
+                Royal Challengers Bangalore
+            </h1>
+
+            <p style="font-weight: 500;">
+                New franchises Pune Warriors India and Kochi Tuskers Kerala joined the league before the fourth season in 2011. Sahara Adventure Sports Group bought the Pune franchise for $370 million while Rendezvous Sports World bought the Kochi franchise for $333.3 million. The Kochi franchise was terminated after only one season when they failed to pay the BCCI the 10% bank guarantee element of the franchise.
+
+
+
+
+
+<!-- In June 2015, two-time champions Chennai Super Kings and the inaugural season champions Rajasthan Royals were suspended for two seasons following their role in a spot-fixing and betting scandal.[37] The two teams were replaced for two seasons by franchises based at Pune and Rajkot.[38][39]
+
+Due to the COVID-19 pandemic, the venue for the 2020 season was moved and games were played in the United Arab Emirates.[40][41] In August 2021, the BCCI announced two new franchises, based in two of six shortlisted cities, would join the league in the 2022 season.[42][43] In closed bidding held in October, RPSG Group and CVC Capital won the bids for the teams, paying ₹7,000 crore (US$880 million) and ₹5,200 crore (US$650 million).[44][45] The teams were subsequently named Lucknow Super Giants and Gujarat Titans.
+
+A number of IPL franchise owners have expanded their business by acquiring teams in other franchise leagues, such as the South African SA20, the Caribbean Premier League and the US Major League Cricket. Teams have been branded with similar names to their parent IPL franchises.[46] -->
+            </p>
+
+            <button><a href="cc.mp4"> WINNING MOMENT</a></button>
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="rcb-removebg-preview.png" alt="">
+        </div>
+
+
+
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li><a href="login.html" class="p"> INFO </a></li>
+                <li><a href="https://bsehexam.org/wp-content/uploads/2023/06/IPL-Teams-List-.png"class="p">Team</a></li>
+                <li><a href="https://assets-webp.khelnow.com/news/uploads/2023/05/IPL-2023-Points-Table-After-Match-6768-1280x1280.jpg.webp" class="p">Points Table</a></li>
+                <li><a href="https://www.cric8fanatic.com/wp-content/uploads/2023/05/ipl-2023-leading-run-scorer-for-all-10-teams-ranking.jpg" class="p">Rank</a></li>
+                <li><a href="https://www.cric8fanatic.com/wp-content/uploads/2023/03/ipl-2023-updated-squad-players-list-for-all-10-teams.jpg" class="p">Player status</a></li>
+            </ul>
+        </div>
+
+        <!-- html code is done -->
+
+        <!-- now jump to css code -->
+
+        <!-- one class is missing -->
+
+        <div class="empty">
+
+
+        </div>
+
+        <!-- this is for remaining teams -->
+
+        <div class="list">
+            <ol>
+                <li onclick="myFun('css3.png', 'gold', 'Chennai Super Kings', 'csk3.png')">CSK</li>
+
+
+                <!-- first one is sucessfully working -->
+                <!-- copy and change the image name, color -->
+
+                <li onclick="myFun('dd1.png', 'blue', 'Delhi Capitals', 'ddlogo.png')">DC</li>
+                <li onclick="myFun('mi.png', 'dodgerblue', 'Mumbai Indians', 'milogo.png')">MI</li>
+                <li onclick="myFun('srh.png', 'orangered', 'Sun Raise Hydrabad', 'srhlogo.png')">SRH</li>
+                <li onclick="myFun('kp.png', 'red', 'King XI Punjab', 'kplogo.png')">KXIP</li>
+                <li onclick="myFun('rr1.png', '#ff3385', 'Rajastan Royals', 'rrlogo.png')">RR</li>
+                <li onclick="myFun('kkr.png', 'purple', 'Kolkata Knight Riders', 'kkrlogo.png')">KKR</li>
+            </ol>
+        </div>
+
+    </div>
+
+
+
+
+
+
+<script>
+
+    function myFun(image, colour, head, logo){
+        document.getElementById('myimage').src=image;
+        document.querySelector('.empty').style.backgroundColor=colour;
+        document.querySelector('button').style.backgroundColor=colour;
+        document.getElementById('head').innerHTML=head;
+        document.getElementById('logobg').src=logo;
+    }
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

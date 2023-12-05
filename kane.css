@@ -1,0 +1,9 @@
+body {
+    background-image: url("kane.jpg");
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
